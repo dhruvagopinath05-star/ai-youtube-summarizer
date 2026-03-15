@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ff7a00;
+    /* Orange background */
+    color: white;
+    text-align: center;
+}
+
+/* HERO SECTION */
+
+.hero {
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+
+.highlight {
+    color: yellow;
+}
+
+/* NORMAL TEXT */
+
+p {
+    color: white;
+    font-size: 18px;
+}
+
+/* BUTTONS */
+
+button {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 14px 28px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* LOGIN BOX */
+
+.loginBox {
+    margin-top: 40px;
+}
+
+/* SUMMARIZER */
+
+.summarizer {
+    margin-top: 40px;
+}
+
+input {
+    width: 60%;
+    padding: 14px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+textarea {
+    width: 60%;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}

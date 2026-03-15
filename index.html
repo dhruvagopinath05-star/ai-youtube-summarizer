@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>OmniSummarize AI</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="module" src="firebase.js"></script>
+    <script defer src="app.js"></script>
+
+</head>
+
+<body>
+
+    <!-- HERO SECTION -->
+
+    <div class="hero">
+
+        <h1>
+            <span class="highlight">Summarize</span> your videos in seconds
+        </h1>
+
+        <p>
+            Transform YouTube videos into clear, actionable summaries using AI
+        </p>
+
+        <button id="startBtn">Start Summarizing for Free</button>
+
+        <button id="demoBtn">View Live Demo</button>
+
+    </div>
+
+
+    <!-- LOGIN SECTION -->
+
+    <div class="loginBox">
+
+        <h2>Welcome Back</h2>
+
+        <p>Authentication Portal</p>
+
+        <button id="googleLogin">Sign in with Google</button>
+
+    </div>
+
+
+    <!-- SUMMARIZER SECTION -->
+
+    <div class="summarizer">
+
+        <h2>Paste YouTube URL</h2>
+
+        <input type="text" id="youtubeUrl" placeholder="Paste YouTube video link here">
+
+        <br>
+
+        <button id="summarizeBtn">Summarize</button>
+
+        <br>
+
+        <textarea id="result" placeholder="Your AI summary will appear here..."></textarea>
+
+        <br>
+
+        <button id="saveBtn">Save Summary</button>
+
+    </div>
+
+</body>
+
+</html>

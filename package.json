@@ -1,0 +1,7 @@
+{
+    "name": "ai-youtube-summarizer",
+    "type": "module",
+    "dependencies": {
+        "openai": "^4.0.0"
+    }
+}
