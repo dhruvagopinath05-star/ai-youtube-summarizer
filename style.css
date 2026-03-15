@@ -1,0 +1,141 @@
+body {
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: radial-gradient(circle at center, #0f2c4d, #020d1b);
+
+    color: white;
+    text-align: center;
+
+}
+
+
+
+.hero {
+
+    padding-top: 100px;
+    padding-bottom: 60px;
+
+}
+
+
+
+.title {
+
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+
+
+.yellow {
+
+    color: #ffd34d;
+
+}
+
+
+
+.subtitle {
+
+    margin-top: 15px;
+    opacity: 0.8;
+
+}
+
+
+
+.buttons {
+
+    margin-top: 30px;
+
+}
+
+
+
+.glow-btn {
+
+    padding: 14px 28px;
+
+    border: none;
+    border-radius: 12px;
+
+    margin: 10px;
+
+    font-size: 16px;
+
+    background: linear-gradient(90deg, #00f2fe, #4facfe);
+
+    color: white;
+
+    cursor: pointer;
+
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.6);
+
+    transition: 0.3s;
+
+}
+
+
+
+.glow-btn:hover {
+
+    transform: scale(1.05);
+
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.9);
+
+}
+
+
+
+.login {
+
+    margin-top: 60px;
+
+}
+
+
+
+.summarizer {
+
+    margin-top: 80px;
+    padding-bottom: 100px;
+
+}
+
+
+
+input {
+
+    width: 60%;
+    padding: 14px;
+
+    border-radius: 10px;
+    border: none;
+
+    margin-top: 20px;
+
+    font-size: 16px;
+
+}
+
+
+
+textarea {
+
+    width: 60%;
+    height: 150px;
+
+    margin-top: 20px;
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    border: none;
+
+    font-size: 15px;
+
+}
